@@ -1,10 +1,10 @@
-import Ejemplo from "./Module-1/Ejemplo";
+import Starter from "./01-Types-Basics/FunctionsAsTypes";
 
 const App = () => {
   return (
     <>
-      <Ejemplo />
-      <h1>Hello, Type!</h1>
+      <h1 className="text-2xl font-bold">Hello, Type!</h1>
+      <Starter />
     </>
   );
 };
