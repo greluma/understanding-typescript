@@ -1,4 +1,4 @@
-import Starter from "./01-Types-Basics/FunctionsAsTypes";
+import Starter from "./03-AdvancedTypes/IntersectionTypes";
 
 const App = () => {
   return (
