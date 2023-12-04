@@ -1,4 +1,4 @@
-import Starter from "./03-AdvancedTypes/IndexProperties";
+import Starter from "./04-Generics/GenericsBasics";
 
 const App = () => {
   return (
