@@ -1,13 +1,13 @@
 const GenericsBasics = () => {
   const names: Array<string> = ["mari", "luis", "jose"];
-  console.log(names[0].toUpperCase());
+  // console.log(names[0].toUpperCase());
 
   // * My generic function
   function merge<T extends object, U extends object>(obj: T, obj2: U) {
     return Object.assign(obj, obj2);
   }
   const mergedObj = merge({ name: "Mario" }, { age: 30 });
-  console.log(mergedObj.age);
+  // console.log(mergedObj.age);
 
   interface Lengthy {
     length: number;
@@ -23,7 +23,7 @@ const GenericsBasics = () => {
     return [element, descriptionText];
   }
 
-  console.log(countAndDescribe("Hi there!"));
+  // console.log(countAndDescribe("Hi there!"));
 
   return <div>GenericsBasics</div>;
 };

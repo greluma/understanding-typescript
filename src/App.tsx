@@ -1,4 +1,4 @@
-import Starter from "./04-Generics/GenericsBasics";
+import Starter from "./05-Decoradores/FirstDecorator";
 
 const App = () => {
   return (
